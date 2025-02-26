@@ -1,3 +1,5 @@
+#THIS FILE IS TO TEST YOUR ENVIRONMENT IN A BASIC MUJOCO ENVIRONMENT TO ENSURE THE CUSTOM ENVIRONMENT WORKS CORRECTLY
+
 import gymnasium as gym
 import numpy as np
 from stable_baselines3 import PPO
