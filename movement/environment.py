@@ -4,7 +4,7 @@ from stable_baselines3 import PPO
 
 #CUSTOM ENV FOR ROBOT???
 class custom_environment(gym.Wrapper):
-    def __init__(self, env_name = "Humanoid-v4"):
+    def __init__(self, env_name = "Humanoid-v5"):
         super().__init__(gym.make(env_name, render_mode = "human"))
         self.prev_torso_pos = None
         
