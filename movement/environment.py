@@ -4,10 +4,11 @@ from stable_baselines3 import PPO
 
 #CUSTOM ENV FOR ROBOT???
 class custom_environment(gym.Wrapper):
+    #REBDERS ENVIRONMENT
     def __init__(self, env_name = "Humanoid-v5"):
         super().__init__(gym.make(env_name, render_mode = "human"))
         self.prev_torso_pos = None
-        
+    
     def reset(self, **kwargs):
         obs, info = self.env.reset(**kwargs)
         unwrapped_env = self.env.unwrapped

@@ -4,7 +4,7 @@ from stable_baselines3 import PPO
 from environment import custom_environment
 
 # Create Humanoid-v4 environment
-env = gym.make("Humanoid-v4", render_mode="human")
+env = gym.make("Humanoid-v5", render_mode="human")
 #env = custom_environment()
 
 # Reset environment
