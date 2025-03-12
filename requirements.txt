@@ -1,0 +1,7 @@
+torch
+torchvision
+ultralytics
+transformers
+sentencepiece
+accelerate
+opencv-python
