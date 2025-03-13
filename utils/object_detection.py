@@ -1,7 +1,8 @@
 from ultralytics import YOLO
+import os
 
 #THE FUNCTION TOP FIND OBJECTS IN THE FRAME
-def detect_objects(frame, model_path = "models/yolov8.pt"):
+def detect_objects(frame, model_path = "models/yolov8n.pt"):
     model = YOLO(model_path)
     results = model(frame)
     detections = []
