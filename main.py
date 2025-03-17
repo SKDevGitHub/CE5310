@@ -31,7 +31,7 @@ class VLMApp:
         self.process_button = tk.Button(window, text="Process", command=self.process_prompt)
         self.process_button.pack()
         
-        self.quit_button = tk.Button(window, text="Quit", command=self.close) #Added quit button
+        self.quit_button = tk.Button(window, text="Quit", command=self.close)
         self.quit_button.pack()
 
         self.response_text = scrolledtext.ScrolledText(window, wrap=tk.WORD, width=60, height=10)
