@@ -3,7 +3,7 @@ from huggingface_hub import login, HfApi
 import torch
 import os
 
-def authenticate_huggingface(token="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"):
+def authenticate_huggingface(token="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"):
     """Authenticates with Hugging Face."""
     try:
         if token:
