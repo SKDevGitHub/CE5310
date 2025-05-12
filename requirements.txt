@@ -5,3 +5,6 @@ transformers
 sentencepiece
 accelerate
 opencv-python
+tk
+Pillow
+thread6
